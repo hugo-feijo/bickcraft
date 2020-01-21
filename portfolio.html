@@ -3,18 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Bickcraft</title>
+		<title>Bickcraft - Portfólio</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/portfolio.css">
 		<link rel="stylesheet" href="css/responsivo.css">
 		<script type="text/javascript">document.documentElement.classList.add("js");</script>
 	</head>
 
 	<body>
-
-		
 
 		<header class="header">
 			<div class="container">
@@ -25,102 +24,50 @@
 					<ul>
 						<li><a href="sobre.html">Sobre</a></li>
 						<li><a href="produto.html">Produto</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="portfolio.html" class="menu_ativo">Portfolio</a></li>
 						<li><a href="contato.html">Contato</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
-		<section class="introducao">
+		<section class="introducao-interna interna_portfolio">
 			<div class="container">
-				<h1 data-anime="400" class="fadeInDown">Bicicletas feitas a mão</h1>
-				<blockquote data-anime="800" class="quote-externo fadeInDown">
-					<p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
-					<cite>WILLIAM MORRIS</cite>
-				</blockquote>
-				<a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
+				<h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+				<p data-anime="800" class="fadeInDown">conheça os projetos que amamos mostrar</p>
 			</div>
 		</section>
 
-		<section class="produtos container fadeInDown" data-anime="1600">
-			<h2 class="subtitulo">Produtos</h2>
-			<ul class="produtos_lista">
-				
-				<li class="grid-1-3">
-					<div class="produtos_icone">
-						<img src="img/produtos/passeio.svg" alt="Bickcraft passeio">
-					</div>
-					<h3>Passeio</h3>
-					<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O</p>
-				</li>
-
-				<li class="grid-1-3">
-					<div class="produtos_icone">
-						<img src="img/produtos/esporte.svg" alt="Bickcraft esporte">
-					</div>
-					<h3>Esporte</h3>
-					<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O</p>
-				</li>
-
-				<li class="grid-1-3">
-					<div class="produtos_icone">
-						<img src="img/produtos/retro.svg" alt="Bickcraft retro">
-					</div>
-					<h3>Retro</h3>
-					<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O</p>
-				</li>
-			</ul>
-
-			<div class="call">
-				<p>clique aqui e veja os detalhes dos produtos</p>
-				<a href="produtos.html" class="btn btn-preto">Produtos</a>
-			</div>
+		<section data-anime="1200" class="fadeInDown container" data-slide="quote">
+			<blockquote class="quote_cliente">
+				<p>"No mundo atual, a continua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+				<cite>Barbara Moss</cite>
+			</blockquote>
+			<blockquote class="quote_cliente">
+				<p>"lorem ipsum dolor sit amet consectetur adipiscing elit tortor aenean accumsan venenatis semper nascetur arcu sed ornare in turpis magnis."</p>
+				<cite>Jonhy bravo</cite>
+			</blockquote>
+			<blockquote class="quote_cliente">
+				<p>"lorem ipsum dolor sit amet consectetur adipiscing elit tortor aenean accumsan venenatis semper nascetur arcu sed ornare in turpis magnis lorem ipsum dolor si magnis"</p>
+				<cite>Julio Carlos</cite>
+			</blockquote>
 		</section>
-		<!-- Fecha Produtos -->
 
 		<section class="portfolio">
-			<div class="container">
-				<h2 class="subtitulo">Portfólio</h2>
-
+			<div class="container" data-slide="portfolio">
 				<ul class="portfolio_lista">
 					<li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retro"></li>
 					<li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
 					<li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
 				</ul>
-
-				<div class="call">
-					<p>conheça mais o nosso portfólio</p>
-					<a href="portfolio.html" class="btn">Portfólio</a>
-				</div>
+				<ul class="portfolio_lista">
+					<li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+					<li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retro"></li>
+					<li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
+				</ul>
 			</div>
 		</section>
 
-		<section class="qualidade container">
-			<h2 class="subtitulo">Qualidade</h2>
-
-			<img src="img/bikcraft-qualidade.svg" alt="Bickcraft">
-
-			<ul class="qualidade_lista">
-				<li class="grid-1-3">
-					<h3>Duralibidade</h3>
-					<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem</p>
-				</li>
-				<li class="grid-1-3">
-					<h3>Design</h3>
-					<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem</p>
-				</li>
-				<li class="grid-1-3">
-					<h3>Sustentabilidade</h3>
-					<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem</p>
-				</li>
-			</ul>
-
-			<div class="call">
-					<p>conheça mais a história da bikcraft</p>
-					<a href="sobre.html" class="btn btn-preto">Sobre</a>
-				</div>
-		</section>
 
 		<section class="quebra">
 			<blockquote class="quote-externo container">
@@ -164,6 +111,7 @@
 			</div>
 		</footer>
 
+		<script src="./js/simple-slide.js"></script>
 		<script src="./js/simple-anime.js"></script>
 		<script src="./js/script.js"></script>
 	</body>
